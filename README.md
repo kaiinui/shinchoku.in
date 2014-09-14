@@ -1,7 +1,7 @@
 shinchoku.in
 ============
 
-"Sinchoku(進捗)" is "Have you made any progress?" in Japanese. Widely used as communitation by developers in Japan.
+"Sinchoku(進捗)" is "How is your progress?" in Japanese. Widely used as happy communitation among developers in Japan.
 
 Features
 --
