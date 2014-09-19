@@ -19,6 +19,12 @@ Example 進捗どうですか images
 <img src="http://blog-imgs-64.fc2.com/a/k/a/akami1028/tumblr_mrxbyrqiN01sckns5o1_r1_500.jpg" width="280px" /> 
 <img src="http://37.media.tumblr.com/2622062d4a612ead2e4e73ae8f9f2a72/tumblr_mwchpmTcee1sckns5o1_500.jpg" width="280px" /> 
 
+Concerns
+---
+
+- How to show image in Twitter?
+  * Obey zoi.herokuapp.com way. ![](http://i.gyazo.com/0cc782fcfab74c8a3bffbb1fac43e7df.png)
+ 
 Spec
 ---
 
