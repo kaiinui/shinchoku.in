@@ -10,10 +10,10 @@ div.pure-g
         div
           img src=image.image_url
         div.shinchoku-image--share-container
-          a(href="https://twitter.com/intent/tweet?hashtags=shinchoku.in&url=http://shinchoku.in/&text=#{image.url.split("http://").join("")}" target="_blank")
+          a(href="https://twitter.com/intent/tweet?hashtags=shinchokuin&url=http://shinchoku.in/&text=#{image.url.split("http://").join("")}" target="_blank")
             img(src="/images/tweet.png" valign="middle")
           span.shinchoku-image--or-label or
-          input.shinchoku-image--textfield(type="text" value="http://shinchoku.in/safd8js" onclick="this.select()")
+          input.shinchoku-image--textfield(type="text" value="#{image.image_url}" onclick="this.select()")
 footer
   a(href="https://github.com/kaiinui/shinchoku.in")
     img(src="/images/github.png" width="28px" valign="middle")  kaiinui/shinchoku.in
