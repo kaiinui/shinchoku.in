@@ -1,0 +1,22 @@
+div.logo.u-vcenter--outer
+  span.u-vcenter--inner
+    a(href="/")
+      h1.logo--label shinchoku.in
+
+div.pure-g
+  - 10.times do
+    div.pure-u-1-2
+      div.shinchoku-image--container
+        div
+          img src="/images/shinchoku.jpeg"
+        div.shinchoku-image--share-container
+          a(href="https://twitter.com/intent/tweet?hashtags=shinchoku.in&url=http://shinchoku.in/&text=pic.twitter.com/ltC7iuI7rd%20/" target="_blank")
+            img(src="/images/tweet.png" valign="middle")
+          span.shinchoku-image--or-label or
+          input.shinchoku-image--textfield(type="text" value="http://shinchoku.in/safd8js")
+
+div.pager
+  span.pager--previous.a.pager--next__disabled
+    a(href="") <
+  span.pager--next
+    a(href="") >
