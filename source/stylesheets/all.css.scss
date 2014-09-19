@@ -1,7 +1,6 @@
 @import "pure";
 
 body {
-  padding-bottom: 90px;
 }
 
 .logo {
@@ -25,6 +24,7 @@ body {
   margin-bottom: 90px;
   text-align: center; // To centering the image.
   img {
+    max-height: 500px;
     max-width: 100%;
   }
 }
@@ -71,6 +71,19 @@ body {
   .pager .pager--previous__disabled a{
     color: #ccc;
   }
+
+footer{
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  opacity: 0.5;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
 
 // UTILITIES
 

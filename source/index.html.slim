@@ -1,10 +1,10 @@
 div.logo.u-vcenter--outer
-  span.u-vcenter--inner
-    a(href="/")
-      h1.logo--label shinchoku.in
+  div.u-vcenter--inner
+    h1.logo--label
+      a(href="/") shinchoku.in
 
 div.pure-g
-  - data.shinchoku_images.images.each do |image|
+  - data.shinchoku_images.images.shuffle.each do |image|
     div.pure-u-1-2
       div.shinchoku-image--container
         div
@@ -14,7 +14,9 @@ div.pure-g
             img(src="/images/tweet.png" valign="middle")
           span.shinchoku-image--or-label or
           input.shinchoku-image--textfield(type="text" value="http://shinchoku.in/safd8js" onclick="this.select()")
-
+footer
+  a(href="https://github.com/kaiinui/shinchoku.in")
+    img(src="/images/github.png" width="28px" valign="middle")  kaiinui/shinchoku.in
 //div.pager
   span.pager--previous.a.pager--next__disabled
     a(href="") <
